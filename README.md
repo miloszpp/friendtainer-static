@@ -1,0 +1,1 @@
+# friendtainer-static
