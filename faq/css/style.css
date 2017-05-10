@@ -451,3 +451,12 @@ header h1 {
     display: block;
   }
 }
+
+h1 a {
+  color: white;
+  text-decoration: underline;
+}
+
+h1 a:hover {
+  color: lightgray;
+}
