@@ -59,9 +59,9 @@ Main components
 header {
   position: relative;
   height: 180px;
-  line-height: 180px;
+  padding-top: 90px;
   text-align: center;
-  background-color: #68A9FF;
+  background: url(../../img/bg-pattern.png),linear-gradient(to left,#68A9FF,#6a8bb7)
 }
 header h1 {
   color: #ffffff;
@@ -69,17 +69,25 @@ header h1 {
   -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
   font-size: 1.25rem;
+  margin-bottom: 10px;
 }
 @media only screen and (min-width: 1024px) {
   header {
     height: 240px;
-    line-height: 240px;
   }
   header h1 {
     font-size: 36px;
     font-size: 2.25rem;
     font-weight: 300;
   }
+}
+
+header a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+header a:hover {
+  color: white;
 }
 
 .cd-faq {
